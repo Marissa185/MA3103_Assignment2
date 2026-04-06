@@ -1,0 +1,24 @@
+Name of input file ............................................ ../../work/1_Norovirus_PP_clustalo.fst
+Type of data .................................................. Amino acids (AA)
+Characters used ............................................... ACDEFGHIKLMNPQRSTVWY
+Number of sequences in the alignment    ....................... 63
+Number of sites in the alignment    ........................... 1840
+Pairs of sequences ............................................ 1953
+Completeness (C) score for the alignment    (Ca) .............. 0.935507
+Maximum C-score for individual sequences (Cr_max) ............. 0.979348
+Minimum C-score for individual sequences (Cr_min) ............. 0.91413
+Maximum C-score for individual sites (Cc_max) ................. 1
+Minimum C-score for individual sites (Cc_min) ................. 0.031746
+Maximum C-score for pairs of sequences (Cij_max, i!=j) ........ 0.979348
+Minimum C-score for pairs of sequences (Cij_min, i!=j) ........ 0.864674
+
+C scores for individual sequences (Cr) stored in .............. Table_1.csv
+C scores for individual sites (Cc) stored in .................. Table_2.csv
+Distribution of C scores for individual sites (Cc) in ......... Table_3.csv
+Matrix with C scores for individual pairs of seqs (Cij) in .... Table_4.dis
+Matrix with incompleteness scores (Iij = 1.0 - Cij) in ........ Table_5.dis
+Table with C scores (Cij) and incompleteness scores (Iij) in .. Table_6.csv
+Rectangular heatmap for individual pairs of seqs (Cij) in ..... Full.svg
+R script for generating histogram for Cr distribution ......... Histogram_Cr.R
+R script for generating histogram for Cc distribution ......... Histogram_Cc.R
+R script for generating cumulative curve for Cc distribution .. Cumulative_Cc.R

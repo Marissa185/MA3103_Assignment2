@@ -1,0 +1,17 @@
+Name of input file ............................................ ../../work/1_Norovirus_PP_clustalo.fst
+Type of data .................................................. Amino acids (AA)
+Characters used ............................................... ACDEFGHIKLMNPQRSTVWY
+Number of sequences in the alignment    ....................... 63
+Number of sites in the alignment    ........................... 1840
+Pairs of sequences ............................................ 1953
+Completeness (C) score for the alignment    (Ca) .............. 0.935507
+Maximum C-score for individual sequences (Cr_max) ............. 0.979348
+Minimum C-score for individual sequences (Cr_min) ............. 0.91413
+Maximum C-score for individual sites (Cc_max) ................. 1
+Minimum C-score for individual sites (Cc_min) ................. 0.031746
+Maximum C-score for pairs of sequences (Cij_max, i!=j) ........ 0.979348
+Minimum C-score for pairs of sequences (Cij_min, i!=j) ........ 0.864674
+
+The masked alignment (Cc >= 0.95) in ........................... Mask.fst
+The alignment of columns with low Cc values (Cc < 0.95) in ..... Disc.fst
+The file indicating which columns are masked in ............... Stat.fst

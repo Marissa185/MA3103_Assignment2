@@ -1,0 +1,6 @@
+d <- read.csv("Table_2.csv", header=T)
+head(d)
+pdf(height=4, width=3.5, file="Histogram_Cc.pdf")
+cbks <- seq(0,1,0.05)
+hist(d$Cc, breaks = cbks, col="lightblue", freq = TRUE, xlim=c(0,1), xlab="Cc", main="Distribution of Cc")
+dev.off()
